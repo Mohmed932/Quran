@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --main-color:green;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url('./image//pattern.png');
+    font-family: 'Poppins', sans-serif;
+}
+::selection{
+    background-color: green;
+    color: #fff;
+}
