@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './DatalesAlsuwr.css'
 import {Quran} from '../../DataforQuran'
 import {useLocation} from 'react-router-dom'
@@ -13,11 +13,11 @@ const DatalesAlsuwr = () => {
        <div className='dataDatalesAlsuwr' key={datafroquran.Number}>
           <img className='image' src={mosahf} alt='mosahf'/>
           <div>
-             <h3>سوره : {datafroquran.Name}</h3>
-             <h3>الايات: {datafroquran.Number_Verses}</h3>
-             <h3>عدد الكلمات : {datafroquran.Number_Words}</h3>
-             <h3>عدد الحروف : {datafroquran.Number_Letters}</h3>
-             <h3>اين انزلت : {datafroquran.Descent}</h3>
+             <h3 className='name'>سوره : {datafroquran.Name}</h3>
+             <h3 className='name'>الايات: {datafroquran.Number_Verses}</h3>
+             <h3 className='name'>عدد الكلمات : {datafroquran.Number_Words}</h3>
+             <h3 className='name'>عدد الحروف : {datafroquran.Number_Letters}</h3>
+             <h3 className='name'>اين انزلت : {datafroquran.Descent}</h3>
           </div>
       </div>
       <div className='Surah'>

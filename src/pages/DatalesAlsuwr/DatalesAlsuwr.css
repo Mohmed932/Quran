@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
 }
-.DatalesAlsuwr h3{
+.name{
     font-size: 40px;
     text-align: end;
 }
@@ -19,7 +19,8 @@
 .Surah{
     display: flex;
     justify-content: center;
-    padding: 30px 90px;
+    padding: 30px 20px;
+    width: 100%;
 }
 .wordSurah{
     text-align:justify;
@@ -46,4 +47,20 @@
 .saved button:hover{
     background-color: green;
     color: #fff;
+}
+@media (max-width:700px) {
+    .image{
+        width: 30vw;
+    }
+    .name{
+        font-size: 30px;
+    }
+}
+@media (max-width:430px) {
+    .image{
+        width: 35vw;
+    }
+    .name{
+        font-size: 25px;
+    }
 }
